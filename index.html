@@ -77,14 +77,13 @@ button:hover {
 }
 </style>
 <body>
-
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
 <!--  If necessary, please modify the charset parameter to specify the        -->
 <!--  character set of your HTML page.                                        -->
 <!--  ----------------------------------------------------------------------  -->
 
-
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: Please add the following <FORM> element to your page.             -->
@@ -92,8 +91,8 @@ button:hover {
 
 <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
-<input type=hidden name="oid" value="00DIY000000BlIq">
-<input type=hidden name="retURL" value="https://numanca.github.io/FollowUpPage/">
+<input type=hidden name="oid" value="00D8Z000000spIa">
+<input type=hidden name="retURL" value="http://">
 
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
@@ -110,21 +109,15 @@ button:hover {
 
 <label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
 
-<label for="lead_source">Lead Source</label><select  id="lead_source" name="lead_source"><option value="">--None--</option><option value="Web">Web</option>
-<option value="Phone Inquiry">Phone Inquiry</option>
-<option value="Partner Referral">Partner Referral</option>
-<option value="Purchased List">Purchased List</option>
-<option value="Other">Other</option>
-</select><br>
-
 <label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
 
 <label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
 
+<label for="country">Country</label><input  id="country" maxlength="40" name="country" size="20" type="text" /><br>
+
 <input type="submit" name="submit">
 
 </form>
-
 
 </body>
 </html>
